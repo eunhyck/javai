@@ -1,8 +1,8 @@
-package javai;
+package javai.model;
 
-public class Genesis implements Car {
+public class Gemesis implements Car {
 	private int speed;
-
+	
 	public int getSpeed() {
 		return speed;
 	}
@@ -20,6 +20,7 @@ public class Genesis implements Car {
 		this.speed = 0;
 		return true;
 	}
+
 
 	public boolean isStart() {
 		return this.speed > 0;

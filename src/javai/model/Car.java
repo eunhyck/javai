@@ -1,4 +1,4 @@
-package javai;
+package javai.model;
 
 public interface Car {
 
@@ -7,7 +7,6 @@ public interface Car {
 	boolean stop();
 	
 	boolean isStart();
-	
-	int getSpeed();
 
+	int getSpeed();
 }
